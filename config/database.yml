@@ -12,6 +12,7 @@ default: &default
 development:
   adapter: postgresql
   database: db/development
+  password: Liban123
   host: localhost
   encoding: UTF8
   pool: 5
