@@ -25,11 +25,18 @@ development:
 test:
   adapter: postgresql
   database: db/test
+  username: Ghazi
+  host: localhost
+  password: 'Libann123'
+  encoding: UTF8
   pool: 5
   timeout : 5000
 
 production:
   adapter: postgresql
   database: db/production
+  username: Ghazi
+  host: localhost
+  password: 'Libann123'
   pool: 5
   timeout : 5000
