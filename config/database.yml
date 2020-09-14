@@ -13,8 +13,8 @@ development:
   adapter: postgresql
   database: db/development
   username: Ghazi
-  password: Libann123
   host: localhost
+  password: 'Libann123'
   encoding: UTF8
   pool: 5
   timeout : 5000
